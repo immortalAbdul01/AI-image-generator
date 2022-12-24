@@ -2,7 +2,7 @@
 const { Configuration, OpenAIApi } = require('openai');
 
 const configuration = new Configuration({
-    apiKey: process.env.OPEN_API_KEY,
+    apiKey:'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',
 });
 const openai = new OpenAIApi(configuration);
 exports.generateimage = async (req, res) => {
