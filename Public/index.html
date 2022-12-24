@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/CSS/style.css" />
+    <link rel="stylesheet" type="text/css" href="/CSS/spinner.css" />
+
+    <script src="/JS/script.js" defer></script>
+    <title>OpenAI Image Genrator</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h2>Generate Image form AI</h2>
+            </div>
+
+    </header>
+
+    <main>
+        <section class="showcase">
+            <form id="image-form">
+                <h1>
+                    We create Images better than google
+                </h1>
+                <div class="form-control">
+                    <input type="text" id="prompt" placeholder="Enter Text" />
+                </div>
+                <!-- size -->
+                <div class="form-control">
+                    <select name="size" id="size">
+                        <option value="small">Small</option>
+                        <option value="medium" selected>Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Generate</button>
+                <div class="nav-links">
+                    <ul>
+                        <li>
+                            <a href="https://beta.openai.com/docs" target="_blank">Learn more about Open AI</a>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </section>
+
+        <section class="image">
+            <div class="image-container">
+                <h2 class="msg"></h2>
+                <img src="" alt="" id="image" />
+            </div>
+        </section>
+    </main>
+
+    <div class="spinner"></div>
+</body>
+
+</html>
