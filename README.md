@@ -8,11 +8,13 @@ use command "npm init" in your terminal
 
 
 create a new .env file 
+
 get your own API key from 
 https://openai.com/api/
 
 
 create environment varible as 
+
 OPEN_API_KEY and set your key to that varible 
 
 
